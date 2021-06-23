@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Apiwars</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>
+        <a href="/">Planet List</a>
+        <a>Voting Statistics</a>
+        <a>Registration</a>
+        <a href="login.html">Login</a>
+        <a>Logout</a>
+    </h1>
+    <h2>Star Wars Universe Planets</h2>
+    <button type="button" id="prev">Previus</button><button type="button" id="next">Next</button>
+    <table id="table" class="table">
+        <tr><th> Name </th><th> Diameter </th><th> Climate </th><th> Terrain </th><th> Surface_water </th><th> Population </th><th> Residents </th></tr>
+    </table>
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Residents</h2>
+            <table id="table-person" class="table">
+        <tr><th> Name </th><th> Height </th><th> Skin Color </th><th> Hair Color </th><th> Eye Color </th><th> Birth Year </th><th> Gender </th></tr>
+    </table>
+        </div>
+</div>
+
+<a id="newtable" href="#openModal">Residents</a>
+
+</body>
+</html>
