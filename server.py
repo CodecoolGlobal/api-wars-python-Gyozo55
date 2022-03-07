@@ -29,7 +29,6 @@ def login():
     if request.method == 'POST':
         session['username'] = request.form['username']
         current_password = request.form['password']
-        print(current_password)
         user_data = data_handler.list_user()
         users = []
         n = 0

@@ -33,7 +33,6 @@ function getData(url) {
 
 function tableSwitch(){
     let currentPlanetPage = 1;
-    console.log(currentPlanetPage)
     let prev = document.getElementById("prev");
     let next = document.getElementById("next");
 
@@ -98,28 +97,5 @@ function resindentsTable(data){
         '</td><td>' + tableData.gender + '</td></tr></div>';
 
 }
-
-// function userLogin(){
-//     let username = document.getElementById("login-username")
-//     let userpw = document.getElementById("login-password")
-//     let button = document.getElementById("login-button")
-//
-//     button.addEventListener("click", ()=>{
-//         // impo
-//     })
-//
-// }
-
-// import {hash} from "./database.js"
-
-// function createUser(){
-//     let username = document.getElementById("username")
-//     let userpw = document.getElementById("userpw")
-//     let button = document.getElementById("create-button")
-//
-//     button.addEventListener("click", ()=>{
-//         hash(username, userpw)
-//     })
-// }
 
 
